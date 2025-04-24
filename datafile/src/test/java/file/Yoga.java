@@ -1,8 +1,10 @@
 package file;
 
-public class Yoga {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class Yoga {
+@Test
+	public void yogatest() {
 		System.out.println("hello");
 	}
 
